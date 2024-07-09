@@ -16,8 +16,7 @@
 #define FAINT_YELLOW 0xE// 淡黄色
 #define GLOSS_WHITE 0xF// 亮白色
 /* to locate the head of the snake */
-typedef struct SnakeCoord_
-{
+typedef struct SnakeCoord_ {
     char name[20];
     _Bool alive;
     int x;// the location of the head of the snake
@@ -28,8 +27,7 @@ typedef struct SnakeCoord_
     int speed;
     char direct;// 'u':upward; 'd':downward; 'l':leftward; 'r':rightward
 } SnakeCoord;
-typedef struct GameModern_
-{
+typedef struct GameModern_ {
     int height;
     int width;
     int difficulty;
